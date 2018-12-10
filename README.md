@@ -2,6 +2,9 @@
 
 Easy and shareable tslint-config
 
+## Installation
+`npm i -D @free-js/tslint-config`
+
 ## Requirements
 
 -   codelyzer @ >= 4.5.0
