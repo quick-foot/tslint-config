@@ -1,5 +1,5 @@
 {
-    "rulesDirectory": ["tslint-consistent-codestyle", "node_modules/codelyzer"],
+    "rulesDirectory": ["tslint-consistent-codestyle", "codelyzer"],
     "rules": {
         "adjacent-overload-signatures": true,
         "align": true,
