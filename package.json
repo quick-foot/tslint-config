@@ -1,0 +1,19 @@
+{
+    "name": "@free-js/tslint-config",
+    "version": "1.0.0",
+    "description": "Easy and shareable tslint config",
+    "main": "tslint-config.json",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Christopher Kiss",
+    "license": "MIT",
+    "dependencies": {
+        "codelyzer": "^4.5.0",
+        "tslint-consistent-codestyle": "^1.14.1"
+    },
+    "peerDependencies": {
+        "codelyzer": ">=4.5.0",
+        "tslint": ">=5.11.0"
+    }
+}

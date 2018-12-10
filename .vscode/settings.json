@@ -1,0 +1,21 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/build": true,
+        "**/coverage": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "html.format.wrapAttributes": "force-aligned",
+    "tslint.autoFixOnSave": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 120,
+    "prettier.proseWrap": "always",
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "debug.node.autoAttach": "on"
+}
