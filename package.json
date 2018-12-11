@@ -1,6 +1,6 @@
 {
     "name": "@free-js/tslint-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Easy and shareable tslint config",
     "repository": {
         "type": "git",
