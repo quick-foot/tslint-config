@@ -1,8 +1,9 @@
 # @free-js/tslint-config
 
-Easy and shareable tslint-config
+Easy and shareable tslint config
 
 ## Installation
+
 `npm i -D @free-js/tslint-config`
 
 ## Requirements
