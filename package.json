@@ -2,10 +2,23 @@
     "name": "@free-js/tslint-config",
     "version": "1.0.1",
     "description": "Easy and shareable tslint config",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/christopherkiss/tslint-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/christopherkiss/tslint-config/issues"
+    },
+    "homepage": "https://github.com/christopherkiss/tslint-config#readme",
     "main": "tslint-config.json",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "keywords": [
+        "tslint",
+        "config",
+        "free-js"
+    ],
     "author": "Christopher Kiss",
     "license": "MIT",
     "dependencies": {
