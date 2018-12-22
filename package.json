@@ -1,5 +1,5 @@
 {
-    "name": "@free-js/tslint-config",
+    "name": "@quick-foot/tslint-config",
     "version": "1.0.2",
     "description": "Easy and shareable tslint config",
     "repository": {
@@ -17,7 +17,7 @@
     "keywords": [
         "tslint",
         "config",
-        "free-js"
+        "quick-foot"
     ],
     "author": "Christopher Kiss",
     "license": "MIT",

@@ -1,10 +1,10 @@
-# @free-js/tslint-config
+# @quick-foot/tslint-config
 
 Easy and shareable tslint config
 
 ## Installation
 
-`npm i -D @free-js/tslint-config`
+`npm i -D @quick-foot/tslint-config`
 
 ## Requirements
 
