@@ -1,6 +1,6 @@
 {
     "name": "@quick-foot/tslint-config",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Easy and shareable tslint config",
     "repository": {
         "type": "git",
