@@ -4,12 +4,12 @@
     "description": "Easy and shareable tslint config",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/christopherkiss/tslint-config.git"
+        "url": "git+https://github.com/quick-foot/tslint-config.git"
     },
     "bugs": {
-        "url": "https://github.com/christopherkiss/tslint-config/issues"
+        "url": "https://github.com/quick-foot/tslint-config/issues"
     },
-    "homepage": "https://github.com/christopherkiss/tslint-config#readme",
+    "homepage": "https://github.com/quick-foot/tslint-config#readme",
     "main": "tslint-config.json",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
