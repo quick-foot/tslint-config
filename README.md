@@ -1,6 +1,6 @@
 # tslint-config
 
-Easy and shareable tslint config
+Quick and easy tslint config for Angular projects
 
 ## Installation
 
@@ -18,4 +18,5 @@ Easy and shareable tslint config
 
 ## Requirements
 
--   tslint @ >= 5.11.0
+-   tslint @ >= 5.12.0
+-   typescript @ >= 3.2.2
