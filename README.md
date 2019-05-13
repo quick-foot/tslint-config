@@ -18,5 +18,5 @@ Quick and easy tslint config for Angular projects
 
 ## Requirements
 
--   tslint @ >= 5.12.0
+-   tslint @ >= 5.16.0
 -   typescript @ >= 3.2.2
