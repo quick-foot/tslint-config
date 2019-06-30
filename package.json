@@ -26,6 +26,7 @@
     },
     "devDependencies": {
         "codelyzer": "5.1.0",
+        "rxjs-tslint-rules": "4.24.3",
         "tslint": "5.18.0",
         "tsutils": "3.14.0",
         "typescript": "3.4.5"
