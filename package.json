@@ -1,6 +1,6 @@
 {
     "name": "@quick-foot/tslint-config",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Quick and easy tslint config for Angular projects",
     "repository": {
         "type": "git",
