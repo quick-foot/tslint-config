@@ -235,7 +235,14 @@
         "use-isnan": true,
         "use-life-cycle-interface": true,
         "use-pipe-transform-interface": true,
-        "variable-name": true,
+        "variable-name": {
+            "options": [
+                "ban-keywords",
+                "check-format",
+                "allow-pascal-case",
+                "allow-leading-underscore"
+            ]
+        },
         "whitespace": [
             true,
             "check-branch",
