@@ -133,6 +133,17 @@
         "no-parameter-reassignment": true,
         "no-reference": true,
         "no-return-await": true,
+        "no-restricted-globals": [
+            true,
+            "name",
+            "length",
+            "event",
+            "window",
+            "location",
+            "document",
+            "sessionStorage",
+            "localStorage"
+        ],
         "no-shadowed-variable": true,
         "no-sparse-arrays": true,
         "no-static-this": true,
