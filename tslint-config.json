@@ -1,4 +1,9 @@
 {
+    "extends": [
+        "tslint-consistent-codestyle",
+        "rxjs-tslint-rules",
+        "codelyzer"
+    ],
     "rulesDirectory": [
         "tslint-consistent-codestyle",
         "rxjs-tslint-rules",
