@@ -11,9 +11,9 @@
     },
     "homepage": "https://github.com/quick-foot/tslint-config#readme",
     "files": [
-        "src/index.json",
-        "src/angular.json",
-        "src/rxjs.json"
+        "core.json",
+        "angular.json",
+        "rxjs.json"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

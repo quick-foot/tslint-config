@@ -35,7 +35,7 @@ Includes 3 configurations
 
 ```json
 {
-    "extends": "@quick-foot/tslint-config"
+    "extends": "@quick-foot/tslint-config/core"
 }
 ```
 
