@@ -10,7 +10,11 @@
         "url": "https://github.com/quick-foot/tslint-config/issues"
     },
     "homepage": "https://github.com/quick-foot/tslint-config#readme",
-    "main": "tslint-config.json",
+    "files": [
+        "src/index.json",
+        "src/angular.json",
+        "src/rxjs.json"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -22,18 +26,20 @@
     "author": "Christopher Kiss",
     "license": "MIT",
     "dependencies": {
-        "tslint-consistent-codestyle": "1.15.1",
-        "rxjs-tslint-rules": "4.24.3"
+        "tslint-consistent-codestyle": "1.15.1"
     },
     "devDependencies": {
+        "@angular/compiler": "8.0.3",
+        "@angular/core": "8.0.3",
         "codelyzer": "5.1.0",
+        "rxjs": "6.5.2",
+        "rxjs-tslint-rules": "4.24.3",
         "tslint": "5.18.0",
-        "tsutils": "3.14.0",
-        "typescript": "3.4.5"
+        "typescript": "3.4.5",
+        "zone.js": "0.9.1"
     },
     "peerDependencies": {
-        "codelyzer": ">=5.0.1",
-        "tslint": ">=5.17.0",
+        "tslint": ">=5.18.0",
         "typescript": ">=3.4.5"
     }
 }

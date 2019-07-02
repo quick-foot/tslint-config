@@ -1,6 +1,6 @@
 {
-    "extends": ["tslint-consistent-codestyle", "rxjs-tslint-rules", "codelyzer"],
-    "rulesDirectory": ["tslint-consistent-codestyle", "rxjs-tslint-rules", "codelyzer"],
+    "extends": ["tslint-consistent-codestyle"],
+    "rulesDirectory": ["tslint-consistent-codestyle"],
     "defaultSeverity": "error",
     "rules": {
         "adjacent-overload-signatures": true,
@@ -12,13 +12,9 @@
         "callable-types": true,
         "class-name": true,
         "comment-format": [true, "check-space"],
-        "component-class-suffix": [true, "Component"],
-        "component-selector": [true, "element", ["app"], "kebab-case"],
         "deprecation": {
             "severity": "warn"
         },
-        "directive-class-suffix": [true, "Directive"],
-        "directive-selector": [true, "attribute", ["app"], "camelCase"],
         "early-exit": [
             true,
             {
@@ -69,7 +65,6 @@
         "no-accessor-recursion": true,
         "no-any": true,
         "no-arg": true,
-        "no-attribute-decorator": true,
         "no-collapsible-if": true,
         "no-consecutive-blank-lines": true,
         "no-construct": true,
@@ -80,17 +75,12 @@
         "no-duplicate-variable": true,
         "no-eval": true,
         "no-floating-promises": false,
-        "no-forward-ref": true,
         "no-inferrable-types": [true, "ignore-params"],
-        "no-input-rename": true,
         "no-invalid-template-strings": true,
         "no-invalid-this": true,
         "no-irregular-whitespace": true,
         "no-misused-new": true,
         "no-non-null-assertion": true,
-        "no-output-native": true,
-        "no-output-on-prefix": true,
-        "no-output-rename": true,
         "no-parameter-reassignment": true,
         "no-reference": true,
         "no-return-await": true,
@@ -123,9 +113,6 @@
         "no-var-keyword": true,
         "no-var-requires": true,
         "no-void-expression": false,
-        "no-host-metadata-property": true,
-        "no-inputs-metadata-property": true,
-        "no-outputs-metadata-property": true,
         "number-literal-format": true,
         "object-literal-shorthand": true,
         "object-literal-sort-keys": false,
@@ -145,28 +132,6 @@
         "radix": true,
         "restrict-plus-operands": true,
         "return-undefined": true,
-        "rxjs-finnish": true,
-        "rxjs-no-compat": true,
-        "rxjs-no-create": true,
-        "rxjs-no-ignored-notifier": true,
-        "rxjs-no-ignored-replay-buffer": true,
-        "rxjs-no-internal": true,
-        "rxjs-no-nested-subscribe": true,
-        "rxjs-no-sharereplay": {
-            "options": [
-                {
-                    "allowConfig": true
-                }
-            ],
-            "severity": "error"
-        },
-        "rxjs-no-subject-unsubscribe": true,
-        "rxjs-no-unbound-methods": true,
-        "rxjs-no-unsafe-catch": true,
-        "rxjs-no-unsafe-first": true,
-        "rxjs-no-unsafe-switchmap": true,
-        "rxjs-no-unsafe-takeuntil": true,
-        "rxjs-prefer-observer": true,
         "semicolon": [true, "always"],
         "space-before-function-paren": false,
         "space-within-parens": false,
@@ -189,8 +154,6 @@
         ],
         "use-default-type-parameter": true,
         "use-isnan": true,
-        "use-life-cycle-interface": true,
-        "use-pipe-transform-interface": true,
         "variable-name": {
             "options": ["ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"]
         },

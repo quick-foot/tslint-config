@@ -1,0 +1,28 @@
+{
+    "extends": ["./index.js", "rxjs-tslint-rules"],
+    "rulesDirectory": ["rxjs-tslint-rules"],
+    "rules": {
+        "rxjs-finnish": true,
+        "rxjs-no-compat": true,
+        "rxjs-no-create": true,
+        "rxjs-no-ignored-notifier": true,
+        "rxjs-no-ignored-replay-buffer": true,
+        "rxjs-no-internal": true,
+        "rxjs-no-nested-subscribe": true,
+        "rxjs-no-sharereplay": {
+            "options": [
+                {
+                    "allowConfig": true
+                }
+            ],
+            "severity": "error"
+        },
+        "rxjs-no-subject-unsubscribe": true,
+        "rxjs-no-unbound-methods": true,
+        "rxjs-no-unsafe-catch": true,
+        "rxjs-no-unsafe-first": true,
+        "rxjs-no-unsafe-switchmap": true,
+        "rxjs-no-unsafe-takeuntil": true,
+        "rxjs-prefer-observer": true
+    }
+}
