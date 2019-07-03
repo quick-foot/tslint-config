@@ -1,5 +1,5 @@
 {
-    "extends": ["./core.js", "./rxjs.js", "codelyzer"],
+    "extends": ["./core.json", "./rxjs.json", "codelyzer"],
     "rulesDirectory": ["codelyzer"],
     "rules": {
         "component-class-suffix": [true, "Component"],
