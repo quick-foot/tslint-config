@@ -29,6 +29,16 @@ Includes 3 configurations
 
 ## Usage
 
+Ensure that you turn on strict mode in your `tsconfig.json`.
+
+```json
+{
+    "compilerOptions": {
+        "strict": true
+    }
+}
+```
+
 #### Core
 
 `tslint.json`
